@@ -6,19 +6,19 @@
     <description>Recent content on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why and How to setup a Blog</title>
       <link>http://localhost:1313/posts/why-and-how-to-setup-a-blog/</link>
-      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/why-and-how-to-setup-a-blog/</guid>
-      <description>&lt;p&gt;If you&amp;rsquo;re visiting this page for the first time you properly wondering why this Page looks so awesome  compared to the another pages you visited already. That is so because I&amp;rsquo;m just started a few days ago whit learning html and css programming, but I want this blog to look as beautiful as possible. So I have decided to use the free software hogo to automatically turn my Markdown files into html documents.&lt;/p&gt;</description>
-      <content>&lt;p&gt;If you&amp;rsquo;re visiting this page for the first time you properly wondering why this Page looks so awesome  compared to the another pages you visited already. That is so because I&amp;rsquo;m just started a few days ago whit learning html and css programming, but I want this blog to look as beautiful as possible. So I have decided to use the free software hogo to automatically turn my Markdown files into html documents.&lt;/p&gt;
+      <description>&lt;p&gt;If you&amp;rsquo;re visiting this page for the first time you properly wondering why this Page looks so awesome  compared to the another pages you visited already. That is so because I&amp;rsquo;m just started a few days ago with learning html and css programming, but I want this blog to look as beautiful as possible. So I have decided to use the free software hogo to automatically turn my Markdown files into html documents.&lt;/p&gt;</description>
+      <content>&lt;p&gt;If you&amp;rsquo;re visiting this page for the first time you properly wondering why this Page looks so awesome  compared to the another pages you visited already. That is so because I&amp;rsquo;m just started a few days ago with learning html and css programming, but I want this blog to look as beautiful as possible. So I have decided to use the free software hogo to automatically turn my Markdown files into html documents.&lt;/p&gt;
 &lt;h2 id=&#34;why-&#34;&gt;Why ?&lt;/h2&gt;
-&lt;p&gt;I&amp;rsquo;m sure that this is the question most of you will ask your self right now, so let me explain why I&amp;rsquo;m starting to write a blog in 2024. I mean yes nearly nobody still writes a blog and even less people start whit it and I&amp;rsquo;m sure I also never had started writing one, if I hadn&amp;rsquo;t seen this &lt;a href=&#34;https://www.youtube.com/watch?v=dnE7c0ELEH8&#34;&gt;Youtube Video&lt;/a&gt;from NetworkChuck where he is telling why he starts writing a blog. So I also wanted to do that and that brings us to the next topic.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m sure that this is the question most of you will ask your self right now, so let me explain why I&amp;rsquo;m starting to write a blog in 2024. I mean yes nearly nobody still writes a blog and even less people start with it and I&amp;rsquo;m sure I also never had started writing one, if I hadn&amp;rsquo;t seen this &lt;a href=&#34;https://www.youtube.com/watch?v=dnE7c0ELEH8&#34;&gt;Youtube Video&lt;/a&gt;from NetworkChuck where he is telling why he starts writing a blog. So I also wanted to do that and that brings us to the next topic.&lt;/p&gt;
 &lt;h2 id=&#34;how-&#34;&gt;How ?&lt;/h2&gt;
-&lt;p&gt;I would guess it&amp;rsquo;s obvious that I first tried to follow the steeps in the Video and the &lt;a href=&#34;https://blog.networkchuck.com/posts/my-insane-blog-pipeline/&#34;&gt;blog&lt;/a&gt;which properly works great if you also use Hostinger but I don&amp;rsquo;t do, I use GitHub-Pages and this guide don&amp;rsquo;t really work for GitHub-Pages. So I don&amp;rsquo;t want to lie to you It took me about two days to figure out what I have to change but I have god news for you if you also use GitHub-Pages and also want to start a blog you can just follow my Tutorial. It will take you only about 20-30 min.&lt;/p&gt;
+&lt;p&gt;I would guess it&amp;rsquo;s obvious that I first tried to follow the steeps in the &lt;a href=&#34;https://www.youtube.com/watch?v=dnE7c0ELEH8&#34;&gt;Video&lt;/a&gt; and the &lt;a href=&#34;https://blog.networkchuck.com/posts/my-insane-blog-pipeline/&#34;&gt;blog&lt;/a&gt;which properly works great if you also want to use Hostinger but I don&amp;rsquo;t do, I wanted to use GitHub-Pages like I use it for my main &lt;a href=&#34;https://veicm.github.io/My_Website/&#34;&gt;website&lt;/a&gt; and this guide don&amp;rsquo;t really work for GitHub-Pages. So I don&amp;rsquo;t want to lie to you it took me about two days to figure out what I have to change but I have god news for you if you also use GitHub-Pages and also want to start writing a blog you can just follow my Tutorial. It will take you only about 20-30 min.&lt;/p&gt;
 &lt;h4 id=&#34;packages&#34;&gt;Packages&lt;/h4&gt;
 &lt;p&gt;First of all you need the following Packages&lt;/p&gt;
 &lt;ul&gt;
@@ -34,7 +34,7 @@
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt install git
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt install go
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt install hugo
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;for any another os just do a quick google search it won&amp;rsquo;t be very complicate.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;for any another OS just do a quick google search it won&amp;rsquo;t be very complicate.&lt;/p&gt;
 &lt;h4 id=&#34;hugo&#34;&gt;Hugo&lt;/h4&gt;
 &lt;p&gt;Hugo is the program we will use to convert our Markdown files into a website but to do that we first have to check if hugo is working fine.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo version
@@ -50,8 +50,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --global user.email &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;your.email@example.com&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;#paste your GitHub Email in here&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# now past the link to the submodule you have choosed in here&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add -f https://github.com/panr/hugo-theme-terminal.git themes/terminal
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After you have to customize  your configuration file called &lt;code&gt;hugo.toml&lt;/code&gt; . In most cases you can just copy and paste the code you can see on the theme installation page again we will take the terminal theme as example:
-it is very impotent that you paste your repo name where you blog should be hosted from.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After that you have to customize your configuration file called &lt;code&gt;hugo.toml&lt;/code&gt; . In most cases you can just copy and paste the code you can see on the theme installation page again we will take the terminal theme as example:
+it is very impotent that you paste your repo name where you blog should be hosted from in the &lt;code&gt;baseurl&lt;/code&gt;.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;baseurl&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://repo_name/&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;languageCode&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;en-us&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Add it only if you keep the theme in the `themes` directory.&lt;/span&gt;
@@ -144,21 +144,21 @@ it is very impotent that you paste your repo name where you blog should be hoste
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server -t terminal &lt;span style=&#34;color:#75715e&#34;&gt;#paste your theme name in here&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;now you can go into your Webbrowser and type in &lt;code&gt;localhost:1313/&lt;/code&gt; to see if everything is working fine.&lt;/p&gt;
 &lt;h4 id=&#34;set-up-all-directorys&#34;&gt;Set up all directory&amp;rsquo;s&lt;/h4&gt;
-&lt;p&gt;First of all you have to create a Markdown directory if you&amp;rsquo;re using Obsidian wich is the application I would recommend you can easily move into your Obsidian Vault and create the directory &lt;code&gt;posts&lt;/code&gt;.
+&lt;p&gt;So far so good, now you have to create a Markdown directory if you&amp;rsquo;re using Obsidian wich is the application I would recommend you can easily move into your Obsidian Vault and create a directory called &lt;code&gt;posts&lt;/code&gt;.
 After you have done that move back to your blog directory than move in the content directory and add also a &lt;code&gt;posts&lt;/code&gt; directory.
-Now we have just one thing left to do we have to create a GitHub repo, wich is very easy just go to &lt;a href=&#34;github.com&#34;&gt;GitHub&lt;/a&gt; and login into your account and create a new repo now give it a name it have to be the same you entered in the base url in the &lt;code&gt;hugo.toml&lt;/code&gt; file. Ok now we are very far Just one thing left to do you have to clone the repo locally, if you don&amp;rsquo;t know how to do here is a &lt;a href=&#34;https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository&#34;&gt;guide&lt;/a&gt; and that&amp;rsquo;s it you&amp;rsquo;re done, now you only have to create a Markdown file in your  Markdown directory and do the Boring update workflow to keep your blog up to date.&lt;/p&gt;
+Now we have just one thing left to do, we have to create a GitHub repo, wich is very easy, just go to &lt;a href=&#34;github.com&#34;&gt;GitHub&lt;/a&gt; and login into your account and create a new repo now give it a name it have to be the same you entered in the base url in the &lt;code&gt;hugo.toml&lt;/code&gt; file. Ok now we are very far Just one thing left to do you have to clone the repo locally, if you don&amp;rsquo;t know how to do here is a &lt;a href=&#34;https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository&#34;&gt;guide&lt;/a&gt; and that&amp;rsquo;s it you&amp;rsquo;re done, now you only have to create a Markdown file in your  Markdown directory and do the Boring update workflow to keep your blog up to date.&lt;/p&gt;
 &lt;h4 id=&#34;update-workflow&#34;&gt;Update workflow&lt;/h4&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;Note&lt;/em&gt;: Below you can find three Scripts to automate those things&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;first you have to sync your Markdown directory and your &lt;code&gt;blog/content/posts/&lt;/code&gt; directory by using&lt;/p&gt;
+&lt;p&gt;first you have to sync your Markdown directory (&lt;code&gt;sourcepath&lt;/code&gt;) and your &lt;code&gt;blog/content/posts/&lt;/code&gt; directory by using&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rsync -av --delete &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sourcepath&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;destinationpath&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;then we have to create the html document whit:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server -t terminal &lt;span style=&#34;color:#75715e&#34;&gt;#paste your theme name in here&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;now we can sync the &lt;code&gt;blog/public/&lt;/code&gt; directory and the GitHub directory whit the following command&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;now we can sync the &lt;code&gt;blog/public/&lt;/code&gt; directory and the GitHub directory(&lt;code&gt;destinationpath&lt;/code&gt;) with the following command&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rsync -av &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sourcepath&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;destinationpath&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;sourcepath&lt;/code&gt; have to be the path to the public folder in your blog directory.
-now we have to correct the html document&amp;rsquo;s by using the following python scripts.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;sourcepath&lt;/code&gt; have to be the path to the public folder in your blog directory.&lt;/p&gt;
+&lt;p&gt;Now we have to correct the html document&amp;rsquo;s by using the following python scripts.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;replace_text_in_html&lt;/span&gt;(root_dir, text_to_remove, text_to_insert):
@@ -178,7 +178,7 @@ now we have to correct the html document&amp;rsquo;s by using the following pyth
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    text_to_remove &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://localhost:1313&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    text_to_insert &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://user.github.io/repo&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;#paste user name and repo name here&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    replace_text_in_html(root_dir, text_to_remove, text_to_insert)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;customize the &lt;code&gt;root_dir&lt;/code&gt; and &lt;code&gt;text_to_insert&lt;/code&gt; variable and save it as &lt;code&gt;correct.py&lt;/code&gt; .&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Customize the &lt;code&gt;root_dir&lt;/code&gt; and &lt;code&gt;text_to_insert&lt;/code&gt; variable and save it as &lt;code&gt;correct.py&lt;/code&gt; .&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;replace_text_in_single_file&lt;/span&gt;(file_path, text_to_remove, text_to_insert):
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;with&lt;/span&gt; open(file_path, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;r&amp;#39;&lt;/span&gt;, encoding&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; file:
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        content &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; file&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;read()
@@ -198,7 +198,7 @@ now we have to correct the html document&amp;rsquo;s by using the following pyth
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    text_to_remove &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;repo_name/repo_name&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;#paste your repo name both time in here&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    text_to_insert &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;repo_name&amp;#34;&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# paste your repo name in here&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    replace_text_in_single_file(file_path, text_to_remove, text_to_insert)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;again you have to customize every variabel marked with a &lt;code&gt;#&lt;/code&gt; whit your correct information. Now you have to save this file as &lt;code&gt;correct-link.py&lt;/code&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Again you have to customize every variabel marked with a &lt;code&gt;#&lt;/code&gt; whit your correct information. Now you have to save this file as &lt;code&gt;correct-link.py&lt;/code&gt;.
 So now we are ready to use the mega script wich will make it much easier for use to keep the blog up to date:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/bin/bash
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
@@ -234,13 +234,13 @@ So now we are ready to use the mega script wich will make it much easier for use
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Your blog is updated now.&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;edit all the path&amp;rsquo;s and save it as &lt;code&gt;new_blog.sh&lt;/code&gt;. Now you have to make the Script able to run with:&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Edit all the path&amp;rsquo;s and save it as &lt;code&gt;new_blog.sh&lt;/code&gt;. Now you have to make the Script able to run with:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;chmod +x /path/to/new_blog.sh
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and now you&amp;rsquo;re done Just execute :&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;./path/to/new_blog.sh
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;to update your blog.&lt;/p&gt;
 &lt;h3 id=&#34;extra&#34;&gt;Extra&lt;/h3&gt;
-&lt;p&gt;two more tips:&lt;/p&gt;
+&lt;p&gt;Two more tips:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;add :&lt;/li&gt;
 &lt;/ol&gt;
@@ -249,9 +249,18 @@ So now we are ready to use the mega script wich will make it much easier for use
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;date: 2024-11-30
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;on top of your Markdown files to add a title and a date.
-2. open your &lt;code&gt;.bashrc&lt;/code&gt; file if you use bash it will be stored in your home directory and add:&lt;/p&gt;
+2. open your &lt;code&gt;.bashrc&lt;/code&gt; file, if you use bash, it will be stored in your home directory and add:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;alias New-Blog&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/path/to/new_blog.sh&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and now you just have to type in &lt;code&gt;New-Blog&lt;/code&gt; to execute the script instead of typing the whole path in.&lt;/p&gt;
+&lt;h3 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Everything I showed you in this guide will only work on unix systems wich means Mac and LInux I don&amp;rsquo;t know how to set it up on Windows.&lt;/li&gt;
+&lt;li&gt;If you have a Picture in your Markdown file it could be that your are not able to see it on your website. If I found a solution for that I will add it in this post and remove this paragraph.&lt;/li&gt;
+&lt;li&gt;If I said something wrong please tell me in the GitHub &lt;a href=&#34;https://github.com/Veicm/My_Blog/issues&#34;&gt;issues&lt;/a&gt; or if you don&amp;rsquo;t understand something go to &lt;a href=&#34;https://github.com/Veicm/My_Blog/discussions&#34;&gt;Discussion&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;the-future&#34;&gt;The Future&lt;/h2&gt;
+&lt;p&gt;I will continue writing here in any case but not regularly so the upload times and the topics I will write about will be very randomly, but I will have fun and I hope you will have too.&lt;/p&gt;
+</content>
     </item>
     
   </channel>
