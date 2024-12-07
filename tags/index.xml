@@ -17,5 +17,15 @@
       <content></content>
     </item>
     
+    <item>
+      <title>Inspiration</title>
+      <link>http://localhost:1313/tags/inspiration/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/inspiration/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
   </channel>
 </rss>

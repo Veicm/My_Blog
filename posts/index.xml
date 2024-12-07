@@ -247,6 +247,10 @@ So now we are ready to use the mega script wich will make it much easier for use
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;title: Why and How to setup a Blog
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;date: 2024-11-30
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;draft: false
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tags:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;-&lt;/span&gt; tag1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;-&lt;/span&gt; tag2
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;on top of your Markdown files to add a title and a date.
 2. open your &lt;code&gt;.bashrc&lt;/code&gt; file, if you use bash, it will be stored in your home directory and add:&lt;/p&gt;
@@ -255,7 +259,7 @@ So now we are ready to use the mega script wich will make it much easier for use
 &lt;h3 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Everything I showed you in this guide will only work on unix systems wich means Mac and LInux I don&amp;rsquo;t know how to set it up on Windows.&lt;/li&gt;
-&lt;li&gt;If you have a Picture in your Markdown file it could be that your are not able to see it on your website. If I found a solution for that I will add it in this post and remove this paragraph.&lt;/li&gt;
+&lt;li&gt;If you have a Picture in your Markdown file it could be that your are not able to see it on your website. If I found a solution for that I will add it in this post and remove this paragraph. If you know a solution please tell me &lt;a href=&#34;https://github.com/Veicm/My_Blog/discussions&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;If I said something wrong please tell me in the GitHub &lt;a href=&#34;https://github.com/Veicm/My_Blog/issues&#34;&gt;issues&lt;/a&gt; or if you don&amp;rsquo;t understand something go to &lt;a href=&#34;https://github.com/Veicm/My_Blog/discussions&#34;&gt;Discussion&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;the-future&#34;&gt;The Future&lt;/h2&gt;
