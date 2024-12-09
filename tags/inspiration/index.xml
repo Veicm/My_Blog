@@ -255,7 +255,9 @@ So now we are ready to use the mega script wich will make it much easier for use
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;on top of your Markdown files to add a title and a date.
 2. open your &lt;code&gt;.bashrc&lt;/code&gt; file, if you use bash, it will be stored in your home directory and add:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;alias New-Blog&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/path/to/new_blog.sh&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and now you just have to type in &lt;code&gt;New-Blog&lt;/code&gt; to execute the script instead of typing the whole path in.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and now you just have to type in &lt;code&gt;New-Blog&lt;/code&gt; to execute the script instead of typing the whole path in.
+![[logo.jpg]]
+profil:&lt;/p&gt;
 &lt;h3 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Everything I showed you in this guide will only work on unix systems wich means Mac and LInux I don&amp;rsquo;t know how to set it up on Windows.&lt;/li&gt;
