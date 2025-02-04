@@ -324,8 +324,7 @@ After you have done that move back to your blog directory than move in the conte
 Now we have just one thing left to do, we have to create a GitHub repo, wich is very easy, just go to <a href="github.com">GitHub</a> and login into your account and create a new repo now give it a name it have to be the same you entered in the base url in the <code>hugo.toml</code> file. Ok now we are very far Just one thing left to do you have to clone the repo locally, if you don&rsquo;t know how to do here is a <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository">guide</a> and that&rsquo;s it you&rsquo;re done, now you only have to create a Markdown file in your  Markdown directory and do the Boring update workflow to keep your blog up to date.</p>
 <h4 id="update-workflow">Update workflow<a href="#update-workflow" class="hanchor" ariaLabel="Anchor">#</a> </h4>
 <blockquote>
-<p><em>Note</em>: Below you can find three Scripts to automate those things</p>
-</blockquote>
+<p><em>Note</em>: Below you can find three Scripts to automate those things</p></blockquote>
 <p>first you have to sync your Markdown directory (<code>sourcepath</code>) and your <code>blog/content/posts/</code> directory by using</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rsync -av --delete <span style="color:#e6db74">&#34;sourcepath&#34;</span> <span style="color:#e6db74">&#34;destinationpath&#34;</span>
 </span></span></code></pre></div><p>then we have to create the html document whit:</p>
@@ -435,7 +434,7 @@ The first directory we have to create is the source directory for our pictures. 
 After you have done this you have to create a second directory in your GitHub directory an create an folder called <code>images</code> and that&rsquo;s it, that was the last directory. Now we have to sync those two directory&rsquo;s by using:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rsync -av --delete <span style="color:#e6db74">&#34;/path/to/attachments/&#34;</span> <span style="color:#e6db74">&#34;/path/to/github/images/&#34;</span>
 </span></span></code></pre></div><p>and now one last thing use an other python script to make sure your blog can access the images.
-You can find this script <a href="https://github.com/Veicm/My_Blog/tree/main/posts/why-and-how-to-setup-a-blog/script">here</a> it is called <code>images.py</code>, you can also find all the other scripts I showed you here.</p>
+You can find this script <a href="https://github.com/Veicm/My_Blog-scripts/tree/main/Why-and-How-to-setup-a-blog">here</a> it is called <code>images.py</code>, you can also find all the other scripts I showed you here.</p>
 <p>now save this file as <code>images.py</code> and your done here is a updated update <code>new_blog.sh</code> script wich include pictures.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
